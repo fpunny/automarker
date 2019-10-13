@@ -1,0 +1,4 @@
+CHECKOUTS=./checkouts.txt
+OUTPUT_DIR=report
+UTORID=<SVN Account>
+PASSWORD=<SVN Password>

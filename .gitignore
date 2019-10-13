@@ -1,0 +1,6 @@
+.env
+.repos
+test
+report
+node_modules
+checkouts.txt
