@@ -16,7 +16,7 @@ module.exports = async (student, SECTION) => {
         await exec(
             `java -cp .repos/${student}/.runner/src/:jars/junit-4.12.jar:jars/hamcrest-core-1.3.jar org.junit.runner.JUnitCore com.b07.f19.e2.TestRunner >> ${OUTPUT_DIR}/${student}.txt`,
             {
-                timeout: 5000,
+                timeout: 30000,
             },
         );
     } catch (err) {

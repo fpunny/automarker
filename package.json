@@ -4,7 +4,7 @@
   "description": "An autograder for B07",
   "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "npm run reset && node src/index.js",
     "init": "mkdir .repos; mkdir report; mkdir test; touch checkouts.txt; cp mockenv .env;",
     "reset": "rm -rf .repos/* && rm -rf report/*",
     "test": "echo \"Error: no test specified\" && exit 1"
